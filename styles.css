@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+}
+p {
+  margin: 0;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+.Intro-para {
+  color: #FCFFE7;
+}
+.main-para {
+  color: #20262E;
+}
+h1 {
+  color: #FCFFE7;
+  margin: 60px auto 0 auto;
+  font-family: 'Corinthia', cursive;
+  font-size: 450%;
+}
+
+h2 {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: bolder;
+  font-size: 175%;
+  margin-bottom: 5px;
+  margin-top: 0;
+  padding-top: 12px;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+}
+.bird-img {
+  position: relative;
+}
+.birds {
+  max-width: 15%;
+  display: inline;
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  right: 24%;
+  margin: 5% auto auto auto;
+}
+.bottom-section {
+  background-color: #8FBDD3;
+}
+
+.profile-pic {
+  max-width: 15%;
+  margin-top: 10px;
+}
+.CyberSecurity {
+  text-decoration: underline;
+}
+.Networking {
+  text-decoration: underline;
+}
+.badge {
+  width: 15%;
+
+}
+.server-img {
+  width: 15%;
+  display: inline;
+  padding-right: 25px;
+}
+.windows {
+  width: 15%;
+  display: inline;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.security {
+  width: 15%;
+  display: inline;
+  padding-left: 20px;
+}
+.top-container {
+  background-color: #8FBDD3;
+  padding-top: 100px;
+  margin: 0
+}
+
+.contact-me {
+  background-color: #8FBDD3;
+  color: #20262E;
+
+}
+.profile {
+  background-color: #BE8C63;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.skills {
+  background-color: #E4D1B9;
+  color: #20262E;
+}
+.skill-row {
+  color: #20262E;
+}
+.top-cloud {
+  position: relative;
+}
+
+.cloud-upper {
+  max-width: 10%;
+  display: inline;
+  position: absolute;
+  right: 21%;
+
+}
+.small-cloud {
+  position: relative;
+}
+.cloud-lower {
+  max-width: 8%;
+  display: inline;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 27%;
+  margin: 7% auto auto auto;
+
+}
+.sun-img {
+  position: relative;
+}
+.sun {
+  max-width: 14%;
+  display: inline;
+  position: absolute;
+  z-index: 1;
+  right: 31%;
+  top: 35%;
+  margin: 1% auto auto auto;
+}
+
+.city {
+  max-width: 60%;
+  display: inline-block;
+  position: relative;
+}

@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #006699, #003366), url(network-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: rgba(255,255,255,0.7);
+  color: #003366;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav a {
+  color: #003366;
+  text-decoration: none;
+  padding: 1em;
+  display: block;
+}
+
+header nav a:hover {
+  background-color: #660099;
+  color: #fff;
+}
+
+.profile-picture {
+  text-align: center;
+  padding: 1em;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+main {
+  padding: 1em;
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+section {
+  margin-bottom: 1em;
+  background-image: url(section-background.jpg);
+  background-size: cover;
+  padding: 1em;
+  color: #660099;
+  text-shadow: 1px 1px #003366;
+}
+
+section:not(:last-child) {
+  margin-bottom: 2em;
+  border-bottom: 1px solid #003366;
+}
+
+footer {
+  background-color: #006699;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+}
+
+@media (max-width: 767px) {
+  header nav {
+    display: none;
+  }
+  main {
+    padding: 0.5em;
+  }
+}
