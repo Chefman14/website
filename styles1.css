@@ -64,7 +64,7 @@ section {
   background-image: url(section-background.jpg);
   background-size: cover;
   padding: 1em;
-  color: #660099;
+  color: #003366;
 }
 
 section:not(:last-child) {
